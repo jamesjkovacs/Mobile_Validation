@@ -1,0 +1,6 @@
+    NSURLRequest *request = [NSURLRequest requestWithURL:
+                             [NSURL URLWithString:@"http://maps.google.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&sensor=true"]];
+
+
+    NSURLRequest *request = [NSURLRequest requestWithURL:
+                             [NSURL URLWithString:@"https://maps.googleapis.com/maps/api/place/search/json?location=-33.8670522,151.1957362&radius=500&types=food&name=harbour&sensor=false&key=AIzaSyAbgGH36jnyow0MbJNP4g6INkMXqgKFfHk"]];
